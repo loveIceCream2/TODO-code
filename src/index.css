@@ -1,0 +1,48 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+img {
+  width: 20px;
+  margin-left: 10px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.todo-form {
+  margin-bottom: 20px;
+}
+
+.status {
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+span {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+li::before {content:"•   "}
+
+.pending {
+  background-color: green;
+}
+.working {
+  background-color: yellow;
+  color: black;
+}
+.completed {
+  background-color: red;
+}
+
